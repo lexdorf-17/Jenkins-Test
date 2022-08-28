@@ -2,9 +2,9 @@ FROM golang:alpine
 
 LABEL maintainer "deden@topindoku.co.id"
 
-WORKDIR /jenkinstest/
+WORKDIR /jenkinstest
 
-COPY go.* .
+COPY go.* ./
 
 RUN go mod download
 
