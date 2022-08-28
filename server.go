@@ -11,3 +11,7 @@ func main() {
 
 	app.Listen(":3000")
 }
+
+func Multiply(a, b int) int {
+	return a * b
+}
