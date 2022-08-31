@@ -1,9 +1,7 @@
 version: '3'
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: lexdorf/jenkinstest:76
     ports:
       - "3000:3000"
     restart: unless-stopped
